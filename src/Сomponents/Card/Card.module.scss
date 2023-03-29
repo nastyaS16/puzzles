@@ -1,0 +1,64 @@
+.card {
+    position: relative;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+    width: 228px;
+    background-color: #fff;
+    border-radius: 12px;
+    img {
+        align-self: center;
+        margin-bottom: 8px;
+    }
+    h3 {
+        margin: 0;
+    }
+    b {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    p{
+        margin: 0;
+        margin-top: 4px;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    button {
+        cursor: pointer;
+        position: relative;
+        height: 42px;
+        width: 42px;
+        background-color: midnightblue;
+        color: white;
+        border-radius: 12px;
+        border: none;
+        padding: 0;
+        transition: background-color 400ms ease;
+    }
+        button:hover {
+            background-color: rgb(67, 67, 176);
+    }
+}
+
+.favorite {
+    cursor: pointer;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    p {
+        margin: 0;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}

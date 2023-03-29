@@ -1,0 +1,59 @@
+header {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0px;
+    display: flex;
+    text-decoration: none;
+    a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+    color: midnightblue;
+}
+    ul {
+        display: flex;
+        align-items: flex-end;
+        li {
+            
+            cursor: pointer;
+            margin-right: 40px;
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 12px;
+    } 
+    h3, p {
+        margin: 0;
+    } 
+    }
+
+
+.icon {
+    vertical-align: middle;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.liLast {
+    margin: 0;
+}
+
+.content {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto ;
+}
