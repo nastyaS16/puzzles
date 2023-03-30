@@ -80,7 +80,7 @@ function Cart ({items=[], onCloseCart, opened, removeItem}) {
                     ): <Info 
                             title={isOrdered ? 'Заказ оформлен' : 'Корзина пустая'} 
                             description={isOrdered ? `Заказ #${orderId} скоро будет передан курьеру`: 'Добавьте товары, чтобы оформить заказ'} 
-                            image={isOrdered ? 'img/empy-box.png':'img/empy-box.png'}
+                            image={isOrdered ? 'https://nastyas16.github.io/puzzles/img/empy-box.png':'https://nastyas16.github.io/puzzles/img/empy-box.png'}
                             onCloseCart={onCloseCart}/>
                     }</div>
                     
